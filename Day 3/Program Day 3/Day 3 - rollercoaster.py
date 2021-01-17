@@ -9,21 +9,20 @@ if height >= 120:
   elif age <18:
       bill = 7
       print(f"Ticket is ${bill}.")
-  elif age >= 18 and not range(45,56):
+  elif age > 50:
+      bill = 0
+      print(f"Ticket is ${bill}.")
+  elif age >= 18 :
       bill = 12
       print(f"Ticket is ${bill}.")
-  else:
-      bill = 0
   photo = input("Do you need a photo or not?Yes or No? ")
   photo = photo.lower()
-  if age >=18 and range(45,56):
+  if age > 50:
       print(f"you need to pay ${bill}")
   elif photo == "no":
       print(f"You need to pay ${bill}.")
-  elif (photo == "yes"):# and (age != range(45,56)):
+  elif (photo == "yes"):
       pay = bill + 3
       print(f"You need to pay ${pay}.")
-#  elif photo == "no" or age == range(45,56):
- #     print(f"You need to pay ${bill}.")
 else:
   print("Grow Taller and then come again!")
