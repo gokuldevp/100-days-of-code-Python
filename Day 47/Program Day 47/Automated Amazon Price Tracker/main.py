@@ -4,9 +4,9 @@ from smtplib import SMTP
 
 # ******************************************** SENDING MESSAGE *********************************************************
 
-FROM = "mikedavid9998@gmail.com"
-PASSWORD = "9946855730"
-TO = "mikedavid9999@yahoo.com"
+FROM = "from@gmail.com"
+PASSWORD = "**********"
+TO = "to@yahoo.com"
 
 
 def send_mail():
