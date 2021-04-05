@@ -1,0 +1,148 @@
+body {
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.top-container {
+    background-color: #9fd8df;
+}
+
+hr {
+    margin: 100px auto;
+    border: dotted;
+    color: #EAF6F6;
+    border-bottom: none;
+    width: 5%;
+}
+
+.bottom-container {
+    background-color: #9fd8df;
+    height: 5%;
+}
+
+.contact-me-button {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 19px;
+   font-weight: 100;
+   padding: 10px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 20px
+}
+
+.contact-me-button:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: Times New Roman, sans-serif;
+    font-size: 300%;
+    line-height: 2;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #66BFBF;
+    line-height: 2;
+    font-size: 2rem;
+}
+
+.mountain {
+    width: 55%
+}
+
+h3 {
+    color: #11999E;
+    font-size: 2rem;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+.what_i_do {
+    font-weight: normal;
+}
+
+.top-cloud {
+    position: relative;
+    left: 500px;
+    padding-top: 50px
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px
+}
+
+.skill-row {
+    margin: auto;
+    text-align: left;
+    width: 50%;
+}
+
+.python-img {
+    width: 50%;
+}
+
+.html-css-img {
+    position: relative;
+    left: 250px;
+    width: 50%;
+}
+
+#profilepic {
+    width: 10%;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.footer-link {
+    padding: 20px;
+    margin: 20px;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
