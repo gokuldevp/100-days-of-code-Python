@@ -1,0 +1,38 @@
+/* multiple selectors - used to select multiple elements at a time */
+
+h1, h2, h3, h4, h5, h6, p {
+	text-align: center;
+}
+
+/* Hierarical selector - used for specifing a element */
+div #title .hithere {
+	text-align: center;
+}
+
+/* combined selectors - used to specifing a element with two or more class, or in same tag , class='big three'*/
+
+.big.three{
+	text-align: right;
+}
+
+#hi.there{
+	
+}
+
+h1#hi {
+
+}
+
+/* selector priorit */
+
+/* the style at the last have more priority below the color will be green.*/
+h1 {
+    color: red;
+	color: green;
+} 
+
+/* priority order id > class > tag eg: #id > .class > tag */
+
+/* external style sheet < internal style sheet < inline style sheet */
+
+

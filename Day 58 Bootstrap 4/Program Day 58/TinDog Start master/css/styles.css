@@ -1,0 +1,182 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto-Black', sans-serif;
+}
+
+/* nav bar */
+
+.nav-link {
+    font-family: 'Roboto-Light', sans-serif;
+}
+
+.brand {
+    font-size: 2rem;
+}
+
+.icon {
+    padding: 3%;
+}
+
+/* title */
+
+#title {
+    background-color:#ff4c68;
+    padding: 3% 15% 4%;
+    position: relative;
+}
+
+.button {
+    margin: 0 4% 0 0;
+}
+
+
+.big-heading {
+    color: white;
+    font-size: 5rem;
+    line-height: 2;
+    padding: 5% 0%;
+}
+
+.title_image {
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+}
+
+
+._2nd_container_col {
+    margin: 10% 0;
+
+}
+
+/* features */
+
+#features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#features h3 {
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 2.5rem;
+}
+
+.midicon {
+    color: #ff4c68;
+}
+
+.midicon:hover {
+    color: red;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+/* testimonials */
+
+#testimonials {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 3% 15%;
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+}
+
+/* press */
+
+#press {
+    background-color: #ff4c68;
+    padding-bottom: 5%;
+}
+
+.press_logo {
+    padding: 1%;
+    padding-bottom: 2%;
+}
+
+/* pricing */
+
+#pricing {
+    background-color: #fff;
+    padding: 3%;
+}
+
+#pricing h2 {
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 1%;
+}
+
+.last_para {
+    padding-bottom: 40px;
+}
+
+.pricing-text {
+    padding-bottom: 2%;
+}
+
+/* ota */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: 'Roboto-Black', sans-serif;
+    height: 400px;
+    padding: 5% 30%;
+}
+
+#cta h3 {
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+/* footer */
+
+#footer {
+    background-color: #fff;
+    padding: 3% 15% 0;
+}
+
+.social {
+    margin: 30px;
+    color: black;
+}
+
+#footer p {
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+/* for smaller screen */
+
+@media (max-width:1000px) {
+#title {
+    text-align: center;
+}
+
+.big-heading {
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.title_image {
+    padding-top: 5%;
+    position: static;
+    transform: rotate(0deg);
+}
+
+#cta {
+    height: 350px;
+    padding: 2% 18%;
+}
+}
