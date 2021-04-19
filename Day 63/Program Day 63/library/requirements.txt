@@ -1,0 +1,14 @@
+Flask~=1.1.2
+flask
+
+pip~=21.0.1
+wheel~=0.36.2
+openssl~=1.1.1k
+jinja2~=2.11.3
+werkzeug~=1.0.1
+itsdangerous~=1.1.0
+click~=7.1.2
+markupsafe~=1.1.1
+greenlet~=1.0.0
+setuptools~=52.0.0
+sqlalchemy~=1.4.9

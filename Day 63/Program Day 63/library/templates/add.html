@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Book</title>
+</head>
+<body>
+    <h1>ADD BOOKS TO YOUR DATABASE</h1>
+    <h2>If a Book with Same Title is there in the database then the Book won't be added.</h2>
+    <form action="{{ url_for('add') }}" method="POST">
+        <label>Book Name</label>
+        <input name="title" type="text">
+        <label>Book Author</label>
+        <input name="author" type="text">
+        <label>Rating</label>
+        <input name="rating" type="number" min="0" max="10" value="0">
+        <button type="submit">Add Book</button>
+    </form>
+</body>
+</html>
